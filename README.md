@@ -13,8 +13,8 @@ Ví dụ:
 PHP
 <pre> 
         < ?php
-            echo "Chào mừng bạn đến với PHP!";
-            $ten = "Việt Nam";
+            echo "welcome!";
+            $ten = "vietnam so orsome";
             echo "Đất nước của tôi là " . $ten;
         ?>    
 </pre>
@@ -38,7 +38,7 @@ Ví dụ:
             } elseif ($diem >= 7) {
                 echo "Giỏi!";
             } else {
-                echo "Cố gắng hơn nhé!";
+                echo "nice paid-job!";
             }
         ?>
 </pre>
@@ -62,7 +62,7 @@ Ví dụ:
             function chaoMung($ten) {
                 return "Xin chào, " . $ten . "!";
             }
-            echo chaoMung("Minh Anh");
+            echo chaoMung("webiseasy");
         ?>
 </pre>
 1.5 Vai trò của PHP trong phát triển ứng dụng web

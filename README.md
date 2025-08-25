@@ -58,7 +58,7 @@ Ví dụ:
 </pre>
 1.4 Hàm
 <pre>
-        <?php
+        < ?php
             function chaoMung($ten) {
                 return "Xin chào, " . $ten . "!";
             }

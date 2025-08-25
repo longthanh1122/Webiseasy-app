@@ -11,11 +11,11 @@ PHP ban đầu được tạo ra bởi Rasmus Lerdorf vào năm 1994. Đến nay
 Mã PHP luôn được đặt trong các thẻ < ?php và ? >. Một câu lệnh PHP kết thúc bằng dấu chấm phẩy (;).
 Ví dụ:
 PHP
-<?php
-    echo "Chào mừng bạn đến với PHP!";
-    $ten = "Việt Nam";
-    echo "Đất nước của tôi là " . $ten;
-?>
+        <?php
+            echo "Chào mừng bạn đến với PHP!";
+            $ten = "Việt Nam";
+            echo "Đất nước của tôi là " . $ten;
+        ?>
 
 Biến: Biến trong PHP bắt đầu bằng ký tự $.
 Ghi chú (Comment): Bạn có thể sử dụng // cho một dòng hoặc /* ... */ cho nhiều dòng để ghi chú.
@@ -28,16 +28,16 @@ if...else...elseif: Dùng để thực thi các khối mã khác nhau dựa trê
 switch: Dùng để chọn một trong nhiều khối mã để thực thi.
 
 Ví dụ:
-<?php
-    $diem = 8;
-    if ($diem >= 9) {
-        echo "Xuất sắc!";
-    } elseif ($diem >= 7) {
-        echo "Giỏi!";
-    } else {
-        echo "Cố gắng hơn nhé!";
-    }
-?>
+        <?php
+            $diem = 8;
+            if ($diem >= 9) {
+                echo "Xuất sắc!";
+            } elseif ($diem >= 7) {
+                echo "Giỏi!";
+            } else {
+                echo "Cố gắng hơn nhé!";
+            }
+        ?>
 
 Vòng lặp (Loops):
 for: Lặp qua một khối mã một số lần nhất định.
@@ -46,19 +46,19 @@ do...while: Tương tự while, nhưng khối mã sẽ được thực thi ít n
 foreach: Lặp qua các phần tử của một mảng.
 
 Ví dụ:
-<?php
-    for ($i = 1; $i <= 5; $i++) {
-        echo "Số: " . $i . "<br>";
-    }
-?>
+        <?php
+            for ($i = 1; $i <= 5; $i++) {
+                echo "Số: " . $i . "<br>";
+            }
+        ?>
 
 1.4 Hàm
-<?php
-    function chaoMung($ten) {
-        return "Xin chào, " . $ten . "!";
-    }
-    echo chaoMung("Minh Anh");
-?>
+        <?php
+            function chaoMung($ten) {
+                return "Xin chào, " . $ten . "!";
+            }
+            echo chaoMung("Minh Anh");
+        ?>
 
 1.5 Vai trò của PHP trong phát triển ứng dụng web
 
